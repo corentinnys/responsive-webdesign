@@ -4,15 +4,24 @@
     body{
         background: red;
     }
+    #medium,#large{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 410px) and (max-width:768px ){
     body{
         background: green;
     }
+    #large,#small{
+        display: none;
+    }
 }
 @media screen and (min-width: 768px){
     body{
         background: blue;
+    }
+    #medium,#small{
+        display: none;
     }
 }
